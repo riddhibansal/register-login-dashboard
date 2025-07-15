@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <h2>Register</h2>
+  <form id="registerForm">
+
+    <label>Full Name: <input type="text" id="fullName" required /></label><br>
+
+    <label>Email: <input type="email" id="email" required /></label><br>
+
+    <label>Password: <input type="password" id="password" required /></label><br>
+    <label>Confirm Password: <input type="password" id="confirmPassword" required /></label><br>
+
+    <label>Phone Number: <input type="text" id="phone" maxlength="10" required /></label><br>
+
+    <label>Gender: 
+      <input type="radio" name="gender" value="Male" required> Male
+      <input type="radio" name="gender" value="Female" required> Female
+    </label><br>
+
+    <label>DOB: <input type="date" id="dob" required /></label><br>
+
+    <label>Address: <textarea id="address" required></textarea></label><br>
+
+    <label>City:
+      <select id="city" required>
+        <option value="">Select City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Pune">Pune</option>
+      </select>
+    </label><br>
+
+    <label>Skills:<br>
+      <input type="checkbox" name="skills" value="HTML"> HTML
+      <input type="checkbox" name="skills" value="CSS"> CSS
+      <input type="checkbox" name="skills" value="JS"> JavaScript
+    </label><br>
+
+    <label><input type="checkbox" id="terms" required> I accept terms</label><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="register.js"></script>
+</body>
+</html>
