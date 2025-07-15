@@ -1,5 +1,6 @@
 # register-login-dashboard
 A modern, responsive web application built with HTML, CSS, and JavaScript. It features registration, login, and dashboard pages with full client-side validation and localStorage-based authentication. No backend or frameworks required.
+# Deployment link: https://riddhibansal.github.io/register-login-dashboard/
 # Features:
 - Registration: 10+ fields, profile picture upload, strong validations
 - Login: Email/password authentication, error feedback
