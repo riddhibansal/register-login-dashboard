@@ -1,8 +1,8 @@
 # register-login-dashboard
 A modern, responsive web application built with HTML, CSS, and JavaScript. It features registration, login, and dashboard pages with full client-side validation and localStorage-based authentication. No backend or frameworks required.
 # Features:
-Registration: 10+ fields, profile picture upload, strong validations
-Login: Email/password authentication, error feedback
+- Registration: 10+ fields, profile picture upload, strong validations
+- Login: Email/password authentication, error feedback
 Dashboard: Displays user info, profile picture, logout, session restriction
 Modern UI: Responsive, animated, clean design
 localStorage: All data stored in browser
